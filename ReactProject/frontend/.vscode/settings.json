@@ -1,0 +1,4 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "spring-boot.ls.checkJVM": false
+}
