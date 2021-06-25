@@ -66,5 +66,6 @@ Proje içeriğini ingilizcemin yeterli olmayacağını düşündüğüm için T�
 -Login olduğumuzda sayfa içerisinde gezerken oturum sonlanmıyor fakat sayfayı yenilediğimizde kullanıcı oturumu sonlanıyor.
 -Normalde üye girişi yapmayan kullanıcıların giriş yapan kullanıcının verilerine erişememesi olayını tamamladım fakat cevap olarak sadece string olarak mesaj yazdırabildim,
 form döndüremedim. Yalın bir mesaj koymak yerine uygulama sayfasını ekledim.
+-Delete, Update metodları backend tarafında kullanıma hazır fakat frontend tarafına ekleyemedim.
 
 Projeyi tam anlamıyla tamamlayamadım fakat yapmaya çalışırken kısa bir sürede çok şey öğrendim. Her şey için teşekkürler, iyi çalışmalar.
