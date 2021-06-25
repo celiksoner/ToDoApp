@@ -14,7 +14,7 @@ Then the application will start working.
 
 ----------------------------------------------------Steps to run a Spring Project (Backend)-----------------------------------------------
 Step 1 - Start the Spring Tool Suite or Intellij IDEA application.
-Step 2 - For Spring Tool Suite ( Choose "Open Project From File System" and choose "homework" project folder.
+Step 2 - For Spring Tool Suite ( Choose "Import Projects" and choose "Maven -> Existing Maven Projects" press Next after clik Browse and add SpringProject folder after click Finish button.
 For Intellij IDEA ( Choose Open File or Project and choose "homework -> pom.xml" and press OK.
 Step 3 - Find the homework -> src/main/java -> com.appcent.homework -> HomeworkApplication.java file
 Step 4 - For Spring Tool Suite -> Right click "HomeWorkApplication.java" and choose "Run as -> Spring Boot App "
@@ -24,6 +24,32 @@ For Intellij Idea -> Right click "HomeWorkApplication.java" and choose "Run"
 
 Users address --> http://localhost:8080/api/1.0/users
 ToDo Tasks address --> http://localhost:8080/todo
+
+-----------Add Task Sample (with Postman choose POST method) (Format: JSON)-------------
+
+{
+"task" : "Task text",
+}
+
+Tasks default added status = false
+
+--------------Get Tasks Sample (with Postman GET method) (Format: JSON)
+
+-Request Address : http://localhost:8080/todo
+
+----------Delete Task Sample (with Postman choose DELETE method) (Format: JSON)-------------
+
+{
+"id":"Enter Tasks Id"
+}
+
+------------Update Task Sample (with Postman choose PUT) (Format: JSON)---------
+
+{
+"id": "Enter Tasks Id" ,
+"task" : "Updated",
+"status": true
+}
 
 ----------------------------------------------------------Database Access Information-----------------------------------------------------
 
